@@ -1,0 +1,16 @@
+Project Plan: 
+    Create a calculator modeled after the iPhone calculator
+    Use Separation of Concerns to prevent/reduce variable pollution and reduce debugging time
+
+Minimum Viable Product:
+    Model appearance after the iPhone default calculator COMPLETE
+    Needs to process a basic arithmetic equation: add, subtract, multiply, divide COMPLETE
+    Ability to clear the values for a new calculation without variable pollution from the previous calculation COMPLETE
+    Use addEventListener() for the ability to target multiple elements COMPLETE
+
+Product Backlog:
+    Ability to change the current display value from positive to negative or reversal COMPLETE
+    Ability to use the pos/neg conversion value in the calculation COMPLETE
+    Ability to use the final value of a calculation as the first number in the next equation, without retyping the value (this includes userchosen positive/negative values) COMPLETE
+    Percentage conversion COMPLETE
+    Automatically convert long display values to exponential notation OPEN 

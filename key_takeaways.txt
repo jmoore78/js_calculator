@@ -1,0 +1,8 @@
+DATA TYPE CONVERSION ISSUES
+1. EXTRA WORK
+-Working with a string as the main data type and then converting to a number creates extra work of converting back and forth later when writing additional functionality. 
+    ex. the calculate function using parseFloat then converting the result back to a string so the result can be used in the equation at the user's discretion.
+
+2. INCREASING THE POTENTIAL FOR PROGRAMMER ERRORS
+-Using a string as a representation of a number can increase the possibility of mixing up data type methods when converting back and forth
+-Adding new functionality and forgetting when something went to conversion and if it's necessary in order to implement that new addition

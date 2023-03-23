@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="calc_app.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="calculator">
+            <h2 id="display">0</h2> <!-- display for the button value or calculation value. defaults to 0 -->
+            <div class="row">
+                <button id="clearButton" class="topRow">C</button>
+                <button id="posNeg" class="topRow">+/-</button>
+                <button id="percent" class="topRow">%</button>
+                <button class="operator">/</button> 
+            </div>
+            <div class="row">
+                <button class="numButton">7</button>
+                <button class="numButton">8</button>
+                <button class="numButton">9</button>
+                <button class="operator">x</button>
+            </div>
+            <div class="row">
+                <button class="numButton">4</button>
+                <button class="numButton">5</button>
+                <button class="numButton">6</button>
+                <button class="operator">-</button>
+            </div>
+            <div class="row">
+                <button class="numButton">1</button>
+                <button class="numButton">2</button>
+                <button class="numButton">3</button>
+                <button class="operator">+</button>
+            </div>
+            <div class="row">
+                <button id="numZero" class="numButton">0</button>
+                <button id="decimal" >.</button>
+                <button id="equal">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
