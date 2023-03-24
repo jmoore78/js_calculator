@@ -1,10 +1,10 @@
 # js_calculator
-Calculator application in JavaScript, CSS and HTML
+Calculator application in JavaScript, CSS and HTML. Utilizes addEventListener, function hoisting, higher order functions, chained ternary operator, switch statement.
 
 ## Project Overview
 Project Plan: 
     Create a calculator modeled after the iPhone calculator
-    Use Separation of Concerns to prevent/reduce variable pollution and reduce debugging time
+    Use Separation of Concerns to prevent/reduce variable pollution and debugging time
 
 Minimum Viable Product:
     Model appearance after the iPhone default calculator COMPLETE
