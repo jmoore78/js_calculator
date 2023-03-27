@@ -63,7 +63,7 @@ function getOperator(btn) {
 
 // CAN I CHANGE ANY OF THE IF STATEMENTS TO WHILE LOOPS?
 function posNegToggle() { // changes the value of the current number to positive or negative, depending on the current sign of the number.
-    if (display.innerText === num1 && num2 === '') { // checks if the current display value is num1.
+    if (display.innerText === num1) { // checks if the current display value is num1. second condition confirms result value is assigned to num1.
         if (Math.sign(display.innerText) === 1) { // Math.sign() returns a 1 or -1 negative depending the the sign of the number argument.
             display.innerText = (-display.innerText); // toggles the display value to negative if positive.
         } else if (Math.sign(display.innerText) === -1) {
@@ -113,6 +113,7 @@ function calculate() {
         default:
             result;
     }
+    console.log(num1, num2)
     display.innerText = String(result); // converts the result from a floating point number to back to a string representation for further concatenation or decimal placing.
     num1 = display.innerText; // reassigns num1 value to the calculated value for further calculations.
 }

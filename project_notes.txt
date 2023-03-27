@@ -11,6 +11,8 @@ Minimum Viable Product:
 Product Backlog:
     Ability to change the current display value from positive to negative or reversal COMPLETE
     Ability to use the pos/neg conversion value in the calculation COMPLETE
-    Ability to use the final value of a calculation as the first number in the next equation, without retyping the value (this includes userchosen positive/negative values) COMPLETE
+    Ability to use the final value of a calculation as the first number in the next equation, without retyping the value COMPLETE
     Percentage conversion COMPLETE
+    Ability to preserve the operator value and num2 value while using Equals button to continue calculations (final value calculated against static num2 and static operator values) COMPLETE
+    Ability to toggle pos/neg value on final result for next calculation COMPLETE
     Automatically convert long display values to exponential notation OPEN 
