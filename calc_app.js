@@ -61,7 +61,7 @@ function getOperator(btn) {
     operator = btn.innerText; // defines the operator value based on the user's choice.
 }
 
-// CAN I CHANGE ANY OF THE IF STATEMENTS TO WHILE LOOPS?
+// ----- Toggles between positive and negative -----
 function posNegToggle() { // changes the value of the current number to positive or negative, depending on the current sign of the number.
     if (display.innerText === num1) { // checks if the current display value is num1. second condition confirms result value is assigned to num1.
         if (Math.sign(display.innerText) === 1) { // Math.sign() returns a 1 or -1 negative depending the the sign of the number argument.
@@ -84,6 +84,7 @@ function posNegToggle() { // changes the value of the current number to positive
     }
 }
 
+// ----- Converts value from current state to decimal representation of a percent
 function percentConversion() { // changes the value to a decimal representation of percent.
     if (display.innerText === num1) {
         display.innerText = display.innerText / 100; // uses implicit coercion.
