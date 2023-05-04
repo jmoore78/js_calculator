@@ -22,7 +22,7 @@ function getKeyValue() { // utilized closures to allow button values to be parse
 }
 getKeyValue();
 
-// ----- Gets the number value to display and assigns values num1 and num2 variables -----
+// ----- Gets the number value to display and assigns values to num1 and num2 variables -----
 function displayNum(btn) { // takes the number button value as a parameter.
     if (!operator) { // condition to check for first entry (prior to user selecting an operator).
         if (display.innerText === '0') { // checks for the display default value.
