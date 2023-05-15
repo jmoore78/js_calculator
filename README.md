@@ -1,5 +1,5 @@
 # js_calculator
-Calculator application in JavaScript, CSS and HTML. Utilizes addEventListener, function hoisting, higher order functions, chained ternary operator, switch statement.
+Event-driven calculator application in JavaScript, CSS and HTML. Utilizes addEventListener, function hoisting, higher order functions, chained ternary operator, switch statement.
 
 ## Project Overview
 Project Plan: 
