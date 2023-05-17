@@ -1,5 +1,5 @@
 # js_calculator
-Event-driven calculator application in JavaScript, CSS and HTML. Utilizes addEventListener, function hoisting, higher order functions, chained ternary operator, switch statement.
+Event-driven calculator application in JavaScript, CSS and HTML. Utilizes web APIs, addEventListener, function hoisting, higher order functions, chained ternary operator, switch statement.
 
 ## Project Overview
 Project Plan: 
@@ -18,3 +18,6 @@ Product Backlog:
     Ability to use the final value of a calculation as the first number in the next equation, without retyping the value (this includes userchosen positive/negative values) COMPLETE
     Percentage conversion COMPLETE
     Automatically convert long display values to exponential notation OPEN 
+
+### What I learned
+    Data Structure: I originally considered arrays as the as the data type for storing values, but after writing some initial code I decided that the frequent variable         manipulation would make arrays cumbersome with constantly changing values. After writing some initial code to I ultimately decided that HTML DOM APIs along with strings     (setting and getting values) would be more streamlined.
