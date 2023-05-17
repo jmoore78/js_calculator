@@ -20,8 +20,8 @@ Product Backlog:
     Automatically convert long display values to exponential notation OPEN 
 
 ### What I learned
-    Data Structure: I originally considered arrays as the as the data type for storing values, but after writing some initial code I decided that the frequent variable manipulation would make 
-    arrays cumbersome with constantly changing values. After writing some initial code to I ultimately decided that HTML DOM APIs along with strings (setting and getting values) would be more 
-    streamlined.
+    Data Structure: I originally considered arrays as the as the data type for storing values, but after writing some initial code I decided that the frequent variable manipulation 
+    would make arrays cumbersome with constantly changing values. After writing some initial code to I ultimately decided that HTML DOM APIs along with strings 
+    (setting and getting values) would be more streamlined.
 
 
